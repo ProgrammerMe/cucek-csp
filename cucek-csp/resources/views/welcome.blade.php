@@ -9,7 +9,6 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <div class="TopLogo">
@@ -47,7 +46,6 @@
       </li>
       <li class="nav-item mx-5">
         <div class="dropdown">
-          <class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span>
   <button class="btn btn-dark dropdown-toggle"
           type="button" id="dropdownMenu1" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false" >
@@ -117,14 +115,65 @@
 <br>
 <div class="container">
   <div class="row">
-    <p>What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-
-</p>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="c1.jpg"  alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="c2.jpg" alt="Second slide">
+    </div>
   </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+  </div>
+</div>
+<br>
+
+<div class="row">
+  <div class="col-4">
+    <div class="jumbotron">
+  <h3 class="text-center">Events</h3>
+  <ul>
+    <li>1</li>
+     <li>2</li>
+      <li>3</li>
+  </ul>
+</div>
+  </div>
+    <div class="col-4">
+      <div class="jumbotron">
+ <h3 class="text-center">Exam Notifications</h3>
+   <ul>
+    <li>1</li>
+     <li>2</li>
+      <li>3</li>
+  </ul>
+</div>
+    </div>
+      <div class="col-4">
+        <div class="jumbotron">
+     <h3 class="text-center">Announcements</h3>
+       <ul>
+    <li>1</li>
+     <li>2</li>
+      <li>3</li>
+  </ul>
+</div>
+      </div>
+
+
+<br>
+
+
+
 </div>
 <hr><div class="container-fluid">
   <div class="row">
@@ -165,6 +214,7 @@ It is a long established fact that a reader will be distracted by the readable c
     </div>
   </div>
 </div>
+<br>
 <hr>
 <footer>
   <nav>
