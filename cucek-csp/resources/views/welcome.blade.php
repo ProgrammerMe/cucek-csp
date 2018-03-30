@@ -11,6 +11,24 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
+<div class="TopLogo">
+  <div class="row">
+  <div class="col-4">
+     <img id="logo1" width="300px" height="200px" src="cusat.jpg">
+
+  </div>
+ <div class="col-8">
+    <h2 id="logo2">Cochin University of Science and Technology</h2>
+    <br> <br>
+    <h4 id="text2nd">Department of Computer Science, CUCEK</h4>
+ </div>
+
+</div>
+</div>
+
+
+
+
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

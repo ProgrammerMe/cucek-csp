@@ -1,0 +1,21 @@
+
+.navbar-nav{
+	padding-left: 75px;
+}
+
+
+.end{
+	display: inline;
+	list-style: none;
+	}
+
+	#logo1{
+		float: right;
+
+	}
+	#logo2{
+     float: left;
+	}
+#text2nd{
+	padding-left: 92px;
+}
