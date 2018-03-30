@@ -1,4 +1,6 @@
-
+body{
+	overflow-x: hidden;
+}
 .navbar-nav{
 	padding-left: 75px;
 }
@@ -23,7 +25,7 @@
 	border: 1px solid gray;
 }
 footer{
-	background: gray;
+	background: #272727;
 }
 
 .dropdown .dropdown-menu {
@@ -42,4 +44,14 @@ footer{
 .dropdown:hover .dropdown-menu {
     max-height: 200px;
     opacity: 1;
+}
+.fa-3x{
+	color: gray;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.copyright{
+font-size: 20px;
+padding-left: 40px;
+color: gray;
 }
