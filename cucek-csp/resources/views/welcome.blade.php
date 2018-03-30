@@ -14,10 +14,11 @@
 <div class="TopLogo">
   <div class="row">
   <div class="col-4">
-     <img id="logo1" width="300px" height="200px" src="cusat.jpg">
+     <img id="logo1" width="250px" height="200px" src="cusat.jpg">
 
   </div>
  <div class="col-8">
+  <br><br>
     <h2 id="logo2">Cochin University of Science and Technology</h2>
     <br> <br>
     <h4 id="text2nd">Department of Computer Science, CUCEK</h4>
@@ -27,9 +28,7 @@
 </div>
 
 
-
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
   
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -39,7 +38,7 @@
     <ul class="navbar-nav mr-auto ">
       <li class="nav-item mx-5">
         
-  <button class="btn btn-secondary">
+  <button class="btn btn-dark">
     Home
   </button>
   
@@ -47,9 +46,9 @@
       </li>
       <li class="nav-item mx-5">
         <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle"
+  <button class="btn btn-dark dropdown-toggle"
           type="button" id="dropdownMenu1" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false">
+          aria-haspopup="true" aria-expanded="false" >
     About Us
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -62,7 +61,7 @@
       </li>
       <li class="nav-item mx-5">
         <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle"
+  <button class="btn btn-dark dropdown-toggle"
           type="button" id="dropdownMenu1" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">
     Events
@@ -76,7 +75,7 @@
       </li>
       <li class="nav-item mx-5">
         <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle"
+  <button class="btn btn-dark dropdown-toggle"
           type="button" id="dropdownMenu1" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">
     Diaries
@@ -89,7 +88,7 @@
       </li>
       <li class="nav-item  mx-5">
         <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle"
+  <button class="btn btn-dark dropdown-toggle"
           type="button" id="dropdownMenu1" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">
     Resources
@@ -104,7 +103,7 @@
       </li>
       <li class="nav-item mx-5">
         <div class="dropdown">
-  <button class="btn btn-secondary">
+  <button  class="btn btn-dark">
     Gallery
   </button>
  
@@ -113,6 +112,7 @@
     </ul>
      </div>
 </nav>
+<br>
 <div class="container">
   <div class="row">
     <p>What is Lorem Ipsum?
