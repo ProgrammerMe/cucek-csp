@@ -11,15 +11,11 @@
 |
 */
 
+
+
 Route::get('/', function () {
-    return view('welcome');
+
+	$title = "Cucek-Csp";
+    return view('welcome', array('title' => $title));
 });
-/*
-Route::get('/hello',function(){Http
-    return 'Hello World!';
-});*/
-
-Route::get('/hello','Hello@index');
-
-Route::get('/hello/{name}', 'Hello@show');
 
